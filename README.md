@@ -1,8 +1,14 @@
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
-  getElementById() -> we can get an element containing a specific Id and access its content by storing in a variable
-  getElementsByClassName() -> we can get all the elements of same class name as HTML Collection and access its content
-  querySelector() -> we can get the first element that matches a CSS selector
-  querySelectorAll() -> we can get all elements that matches the specific CSS selector as NodeList
+  getElementById() -> we can get an element containing a specific Id and access its content by storing in a variable.
+
+
+  getElementsByClassName() -> We can get all the elements of same class name as HTML Collection and access its content.
+
+
+  querySelector() -> We can get the first element that matches a CSS selector.
+
+
+  querySelectorAll() -> We can get all elements that matches the specific CSS selector as NodeList.
 
 ### 2. How do you create and insert a new element into the DOM?
   1st, we have to create the element. 2nd, we have to add attributes. 3rd, we have to append the attribute to the newly created element. For Example:
@@ -20,4 +26,6 @@
 
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
   preventDefault() -> It cancels the browser's default behavior.
+
+
   stopPropagation() -> It stops the event from going up to parent elements.
