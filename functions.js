@@ -167,7 +167,7 @@ function renderInterview() {
         let div = document.createElement('div');
         div.className = 'full-card p-6 bg-white border border-[#F1F2F4] rounded-lg'
         div.innerHTML = `
-        <div class="full-card p-5  bg-white border border-[black] rounded-xl">
+        <div class="full-card p-5 bg-white border border-[black] rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <div class="flex justify-between">
                     <div>
                         <h2 class="text-[#002C5C] font-semibold text-[18px] pb-1 card-h">${interview.cardH}</h2>
@@ -212,7 +212,7 @@ function renderRejected() {
         let div = document.createElement('div');
         div.className = 'full-card p-6 bg-white border border-[#F1F2F4] rounded-lg'
         div.innerHTML = `
-        <div class="full-card p-5  bg-white border border-[black] rounded-xl">
+        <div class="full-card p-5 bg-white border border-[black] rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <div class="flex justify-between">
                     <div>
                         <h2 class="text-[#002C5C] font-semibold text-[18px] pb-1 card-h">${rejected.cardH}</h2>
